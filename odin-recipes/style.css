@@ -1,0 +1,55 @@
+body {
+  background-color: #FFEBCD;
+  font-family: "Verdana", "Arial", sans-serif;
+}
+
+.main-h1 {
+  margin-bottom: 16px;
+}
+
+.recipe-link {
+  display: block;
+  background-color: #87CEEB;
+  padding: 8px;
+  padding-left: 0px;
+  margin: 8px 0;
+}
+
+a {
+  box-shadow: 0 0 0 1px black inset;
+  background-color: #FFEBCD;
+  padding: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  background-color: #DEB887;
+}
+
+h1,
+h2,
+h3 {
+  padding: 8px;
+  background-color: #87CEEB;
+  margin: 8px 0;
+}
+
+.footer {
+  background-color: #87CEEB;
+  padding: 8px;
+  padding-left: 0px;
+}
+
+.home {
+  display: inline;
+  box-shadow: 0 0 0 1px black inset;
+  background-color: #FFEBCD;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.home:hover {
+  background-color: #DEB887;
+}
