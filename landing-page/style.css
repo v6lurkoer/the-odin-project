@@ -1,0 +1,161 @@
+/* WHOLE PAGE */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+
+.header h3 {
+  font-size: 24px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+/* HERO */
+.first {
+  display: flex;
+  gap: 64px;
+  padding: 64px 20%;
+  background-color: #1F2937;
+}
+
+.content-text,
+.content-image {
+  flex: 1;
+}
+
+.content-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAf8;
+}
+
+.content-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.content-text button {
+  background-color: #3882F6;
+  font-weight: bold;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.content-text a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+/* RANDOM INFORMATION */
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20%;
+}
+
+.content-combos {
+  display: flex;
+  gap: 24px;
+}
+
+.combo p {
+  text-align: center;
+  width: 0;
+  min-width: 100%;
+}
+
+.combo img {
+  border: 2px solid #3882F6;
+  border-radius: 10px;
+}
+
+/* QUOTE */
+.third {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 64px 20%;
+  gap: 8px;
+}
+
+.third h4,
+.third p {
+  margin: 0;
+}
+
+.third h4 {
+  align-self: end;
+  font-weight: bolder;
+}
+
+.third p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+/* CALL TO ACTION */
+.fourth {
+  display: flex;
+  justify-content: center;
+  padding: 64px 20%;
+  color: #E5E7EB;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 0;
+  border-radius: 10px;
+  gap: 32px;
+  width: 100%;
+}
+
+.fourth .container,
+.right button {
+  background-color: #3882F6;
+}
+
+.right button {
+  font-weight: bold;
+  padding: 8px 24px;
+  border: 2px solid #E5E7EB;;
+  border-radius: 5px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+}
