@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Scwipting</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <script>
+      function add7(num) {
+        return num + 7;
+      }
+
+      function multiply(num1, num2) {
+        return num1 * num2;
+      }
+
+      function capitalize(str) {
+        const first_letter = str.charAt(0);
+        const first_letter_cap = first_letter.toUpperCase();
+        const remaining_letters = str.slice(1);
+        const cap = first_letter_cap + remaining_letters;
+        return cap;
+      }
+
+      function lastLetter(str) {
+        return str.charAt(str.length - 1);
+      }
+    </script>
+  </body>
+</html>
