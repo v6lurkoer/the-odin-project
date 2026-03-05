@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.header {
+  background-color: gray;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  padding: 16px;
+}
+
+.calculator {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  gap: 2px;
+  height: 60%;
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.upper-section {
+  gap: 2px;
+  padding: 2px 2px 0 2px;
+  display: flex;
+  flex: 1 1 20%;
+}
+
+.display {
+  border: 1px solid black;
+  flex: 1 1 80%;
+}
+
+.clear {
+  display: flex;
+  flex: 1 1 20%;
+}
+
+.lower-section {
+  gap: 2px;
+  padding: 0 2px 2px 2px;
+  display: flex;
+  flex: 1 1 80%;
+}
+
+.numbers {
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 80%;
+}
+
+.row {
+  gap: 2px;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.number {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.operators {
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 20%;
+}
+
+.operator {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+button {
+  width: 100%;
+}
+
+.footer {
+  background-color: gray;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  padding: 16px;
+}
