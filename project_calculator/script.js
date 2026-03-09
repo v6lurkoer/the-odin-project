@@ -1,6 +1,25 @@
-let first_num = 0;
-let second_num = 0;
+let x = 0;
+let y = 0;
 let operator = 0;
+
+const numbers = document.querySelectorAll(".number");
+const p = document.querySelector(".text");
+let btn;
+
+function handleClick() {
+  console.log("press");
+  x += btn;
+  console.log(typeof x);
+  p.textContent = x;
+}
+
+numbers.forEach((num) => num.addEventListener("click", () => {
+  btn = num.textContent;
+  console.log(typeof btn);
+  console.log(num.textContent);
+  handleClick();
+}));
+// button.addEventListener("click", handleClick);
 
 // 1 == add, 2 == subtract, 3 == multiply, 4 == divide
 function operate(x, y, o) {
